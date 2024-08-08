@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Project Title: Zaika Food Delivery Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies Used:
 
-## Available Scripts
+Frontend: React, Tailwind CSS, MUI (Material-UI), Redux (State Management Library), Axios
+Backend: Node.js, Express.js, MongoDB (Database)
+Authentication & Authorization: JSON Web Token (JWT), Role-Based Access Control (ROLE_CUSTOMER, ROLE_RESTAURANT_OWNER)
+Payment Gateway: Stripe
+Tools: VS Code (React), STS (Spring Boot)
+Project Overview:
 
-In the project directory, you can run:
+The Zaika Food Delivery Application is a comprehensive platform designed to streamline restaurant operations and enhance the dining experience for customers. This project leverages the MERN stack (MySQL Developer, React, Node.js) to provide a robust and scalable solution.
 
-### `npm start`
+Key Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Role-Based Access Control: Implements distinct roles for customers and restaurant owners, ensuring secure and appropriate access to various system functionalities.
+User Management: Supports user registration and authentication, including roles, orders, favorites, addresses, and account status.
+Restaurant Management: Enables restaurant owners to manage restaurant details, including name, description, cuisine type, contact information, opening hours, reviews, orders, ratings, images, and food menu.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Food Management: Allows restaurant owners to manage food items, including details such as name, description, price, category, availability, ingredients, and images.
 
-### `npm test`
+Order Management: Facilitates customers to place orders, track order status, and manage delivery details. Supports restaurant owners in managing incoming orders and tracking their status.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cart Functionality: Provides customers with the ability to add food items to a cart, view cart items, and manage the cart before placing an order.
 
-### `npm run build`
+Events Management: Allows restaurant owners to create and manage events, including event details such as name, location, start and end times, and images.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Payment Integration: Utilizes Stripe for secure and efficient payment processing.
